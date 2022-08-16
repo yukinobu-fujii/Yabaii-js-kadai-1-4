@@ -15,58 +15,16 @@ const taskShow = () => {
         console.log( index, value);
     });
 }
+
 taskShow();
-for (let i = 0; i < taskNames.length; i++) {{
-    if(taskNames.push(prompt('タスクを入力してください')));{
-    document.write(taskNames.key);       
+while(true){
+    (taskNames.push(prompt('タスクを入力してください')));{      
     }
-    (taskNames.push(prompt('ジャンルを入力してください')));
-    document.write(taskNames.value); 
-    {
+    (taskNames.push(prompt('ジャンルを入力してください')));{
         console.log( taskMenu.join('\n') );
         taskShow();
-        alert('「確認、追加、削除、終了」のいずれかを入力してください');
-    }
-}
-/*
-    }elesif{
-
-    }
-
         alert(`新しいタスクを追加しました。`);
+        alert('「確認、追加、削除、終了」のいずれかを入力してください');
         break;
     }
 }
-
-
-/*let name_array = ['どうのつるぎ', 'かわのたて', 'かわのぼうし'];
- let price_array = [150, 80, 100];
- 
- 
- let item_array = [
-  name_array,
-  price_array,
- ]
- name_array.forEach(function(name, index) {
-  //console.log(name)
-  console.log(name_array[index])
-  console.log(price_array[index])
- })
- //または
- item_array.forEach(function(item) {
-  item.forEach(function(item, index) {
-  console.log(item)
-  })
- })
-
- let items = [
-    { name: 'どうのつるぎ', price: 150 },
-    { name: 'かわのたて', price: 80 },
-    { name: 'かわのぼうし', price: 100 },
-   ]
-   items.forEach(function(item, index) {
-    console.log(index)
-    console.log(item.name)
-    console.log(item.price)
-   })
-   */
